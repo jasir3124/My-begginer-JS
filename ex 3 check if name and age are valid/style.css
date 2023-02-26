@@ -1,0 +1,25 @@
+#nameError{
+    visibility: hidden;
+    color: red;
+    text-transform: capitalize;
+}
+#ageError{
+    visibility: hidden;
+    color: red;
+    text-transform: capitalize;
+}
+#nameInput{
+    border: solid black 1.5px;
+    outline: none;
+}
+#ageInput{
+    border: solid black 1.5px;
+    outline: none;
+}
+
+.formCont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -40% -50%;
+}

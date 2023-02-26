@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="formCont">
+    <form  id="myForm" action="" onsubmit=" return validation()">
+        <div class="nameCheck">
+            <label for="name">Name : </label>
+            <input name="name" id="nameInput" type="text">
+            <span id="nameError">the name is not valid</span>
+        </div>
+<br>
+        <div class="ageCheck">
+            <label for="age">Age : </label>
+            <input name="age" id="ageInput" type="text">
+            <span id="ageError">the age is not valid</span>
+        </div>
+<br>
+        <button type="submit">login</button>
+    </form>
+</div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
